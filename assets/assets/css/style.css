@@ -21,7 +21,7 @@ header h1 {
     color: #000;
     margin: 0;
 }
-haeder a {
+header a {
     text-decoration: none;
     color: #fce138;
 }
@@ -150,10 +150,10 @@ footer h2, footer div {
 
 .section-title {
     width: 80%;
+}
 
 .contact-info iframe{
     flex: 1 100%;
-}
 }
 
 /* MEDIA QUERY FOR TABLETS AND SMALLER */
@@ -177,5 +177,4 @@ section {
 .section-title {
     width: 95%;
 }
-
 }
