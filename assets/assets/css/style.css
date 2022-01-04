@@ -1,11 +1,16 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 .body {
-font-family: Arial, Helvetica, sans-serif;
-background-color: #cc99ff;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #cc99ff;
+}
+
+img {
+    max-height: 175vh;
 }
 
 header {
@@ -15,19 +20,23 @@ header {
     justify-content: space-between;
     flex-wrap: wrap;
 }
+
 header h1 {
     font-weight: bold;
     font-size: 36px;
     color: #000;
     margin: 0;
 }
+
 header a {
     text-decoration: none;
     color: #fce138;
 }
+
 header nav {
-margin: 0%;
+    margin: 0%;
 }
+
 header nav ul {
     display: flex;
     flex-wrap: wrap;
@@ -35,15 +44,18 @@ header nav ul {
     align-items: center;
     list-style: none;
 }
-header nav ul li{
+
+header nav ul li {
     display: inline;
 }
-header nav ul li a{
+
+header nav ul li a {
     margin: 0 30px;
     font-weight: lighter;
     font-size: 1.55vw;
 
-    }
+}
+
 footer {
     background: #cc6699;
     width: 100%;
@@ -52,20 +64,28 @@ footer {
     justify-content: space-between;
     flex-wrap: wrap;
 }
-section{
+
+section {
     padding: 60px;
     background-color: #cc99ff;
     background-image: url("../images/Sandy\ and\ Erika.jpg");
 }
-.hero {
-background-image: url("../images/Sandy\ and\ Erika.jpg");
-background-size: cover;
-background-position: center;
-display: flex;
-justify-content: center;
-flex-wrap: wrap;
-align-items: flex-start;
+
+#projects {
+    display: flex;
+    flex-wrap: wrap;
 }
+
+.hero {
+    background-image: url("../images/Sandy\ and\ Erika.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
 .intro h2 {
     font-size: 55px;
     color: #024e76;
@@ -76,7 +96,7 @@ align-items: flex-start;
     display: inline-block;
 }
 
-.intro p{
+.intro p {
     line-height: 1.7;
     color: #cc99ff;
     width: 80%;
@@ -84,97 +104,102 @@ align-items: flex-start;
     text-align: center;
     margin: 0 auto;
 }
+
 .img {
-size: 10%;
+    size: 10%;
 }
+
 .contact {
-background: #024e76;
+    background: #024e76;
 }
 
 .contact h2 {
-color: #fce138;
+    color: #fce138;
 }
 
 .contact-info {
-display: flex;
-justify-content: space-between;
-flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
-.contact-info > * {
-flex: 1;
-margin: 15px;
+.contact-info>* {
+    flex: 1;
+    margin: 15px;
 }
 
 
 
 .contact-info h2 {
-color: #fce138;
-font-size: 32px;
+    color: #fce138;
+    font-size: 32px;
 }
 
 .contact-info p, .contact-info address {
-margin: 20px 0;
-line-height: 1.5;
-font-size: 16px;
-font-style: normal;
+    margin: 20px 0;
+    line-height: 1.5;
+    font-size: 16px;
+    font-style: normal;
 }
+
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
 @media screen and (max-width: 980px) {
-header {
-    padding-bottom: 0;
-    justify-content: center;
-    position: relative;
-}
+    header {
+        padding-bottom: 0;
+        justify-content: center;
+        position: relative;
+    }
 
-header h1 {
-    width: 100%;
-    text-align: center;
-}
+    header h1 {
+        width: 100%;
+        text-align: center;
+    }
 
-header nav ul {
-    margin-top: 20px;
-    width: 100%;
-    justify-content: center;
-}
+    header nav ul {
+        margin-top: 20px;
+        width: 100%;
+        justify-content: center;
+    }
 
-header nav ul li a {
-    font-size: 20px;
-}
+    header nav ul li a {
+        font-size: 20px;
+    }
 
-footer h2, footer div {
-    text-align: center;
-    width: 100%; 
-}
+    footer h2, footer div {
+        text-align: center;
+        width: 100%;
+    }
 
 
-.section-title {
-    width: 80%;
-}
+    .section-title {
+        width: 80%;
+    }
 
-.contact-info iframe{
-    flex: 1 100%;
+    .contact-info iframe {
+        flex: 1 100%;
+    }
+
 }
 
 /* MEDIA QUERY FOR TABLETS AND SMALLER */
 @media screen and (max-width: 768px) {
-section {
-    padding: 30px 15px;
-}
+    section {
+        padding: 30px 15px;
+    }
 
 
-.img {
-    flex: 0 32%;
-    margin-right: 0;
-    margin-top: 15px;
-    margin-bottom: 15px;
-}
+    .img {
+        flex: 0 32%;
+        margin-right: 0;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
 
 }
 
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
-@media screen and (max-width: 575px) { 
-.section-title {
-    width: 95%;
-}
+@media screen and (max-width: 575px) {
+    .section-title {
+        width: 95%;
+    }
 }
