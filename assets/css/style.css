@@ -7,6 +7,7 @@
 .body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: #cc99ff;
+    background-image: url("../images/Sandy\ and\ Erika.jpg");
 }
 
 img {
@@ -19,6 +20,7 @@ header {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    background-image: url("../images/Sandy\ and\ Erika.jpg");
 }
 
 header h1 {
@@ -30,7 +32,7 @@ header h1 {
 
 header a {
     text-decoration: none;
-    color: #fce138;
+    color: #cc6699;
 }
 
 header nav {
@@ -68,7 +70,6 @@ footer {
 section {
     padding: 60px;
     background-color: #cc99ff;
-    background-image: url("../images/Sandy\ and\ Erika.jpg");
 }
 
 #projects {
@@ -98,11 +99,12 @@ section {
 
 .intro p {
     line-height: 1.7;
-    color: #cc99ff;
+    color: #fce138;
     width: 80%;
     font-size: 20px;
     text-align: center;
     margin: 0 auto;
+    background-image: url("../images/Sandy\ and\ Erika.jpg");
 }
 
 .img {
